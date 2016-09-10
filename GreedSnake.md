@@ -1,18 +1,18 @@
 # CyanTown
-import java.util.ArrayList;
-import java.util.List;
-import javax.swing.JFrame;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.image.BufferedImage;
++ import java.util.ArrayList;
++ import java.util.List;
++ import javax.swing.JFrame;
++ import java.awt.Color;
++ import java.awt.Graphics;
++ import java.awt.Graphics2D;
++ import java.awt.Rectangle;
++ import java.awt.event.KeyAdapter;
++ import java.awt.event.KeyEvent;
++ import java.awt.image.BufferedImage;
 
 public class SnakeGame extends JFrame {
 	public static final int WIDTH = 800, HEIGHT = 600, SLEEPTIME = 200,
-							L = 1,R = 2, U = 3, D = 4;			//设置窗口大小，方向键代值
+							L = 1,R = 2, U = 3, D = 4;	//设置窗口大小，方向键代值
 	public int grade;
 	BufferedImage offersetImage= new BufferedImage( WIDTH, HEIGHT, BufferedImage.TYPE_3BYTE_BGR);
 	//创建一个大小为 800*600 ，且具有 8 位 RGB 颜色分量的图像变量
